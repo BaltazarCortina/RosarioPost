@@ -1,0 +1,46 @@
+a {
+    text-decoration: none;
+}
+.ad {
+    
+}
+
+#social-icons {
+    position: relative;
+}
+#social-icons li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+#social-icons li, #social-icons a {
+    height: 23px;
+    display: block;
+}
+#social-facebook {
+    left: 0;
+    width: 12px;
+    background: url(img/social-icons.png) -2px 0;
+}
+#social-twitter {
+    left: 15px;
+    width: 22px;
+    background: url(img/social-icons.png) -28px 0;
+}
+#social-instagram {
+    left: 40px;
+    width: 22px;
+    background: url(img/social-icons.png) -60px 0;
+}
+#social-youtube {
+    left: 65px;
+    width: 30px;
+    background: url(img/social-icons.png) -92px 0;
+}
+#social-linkedin {
+    left: 98px;
+    width: 22px;
+    background: url(img/social-icons.png) -132px 0;
+}
