@@ -33,6 +33,7 @@ address {
     margin: 0 0 25px 10px;
     font-family: "CTVSans-Regular",arial,sans-serif;
     font-size: 14px;
+    line-height: 17px;
     font-style: normal;
 }
 address img {
@@ -119,6 +120,9 @@ footer a, footer a:visited {
 }
 .news-body a, .news-body a:visited {
     color: #005FFF;
+}
+.italic {
+    font-style: italic;
 }
 .container-more {
     padding: 40px 0 10px;
@@ -337,12 +341,21 @@ footer a, footer a:visited {
     font-family: 'CTVSans-Regular',arial,sans-serif;
     font-size: 15px;
 }
+#authors-names {
+    margin-bottom: 5px;
+}
 #address-tw {
     color: #2C2C2C;
 }
 #date {
     margin: -10px 0 10px 10px;
     font-size: 14px;
+}
+#video-side {
+    position: relative;
+    float: right;
+    top: 15px;
+    width: auto;
 }
 #left-panel {
     float: left;
@@ -366,6 +379,13 @@ footer a, footer a:visited {
     font-size: 16px;
     line-height: 19px;
     color: #2C2C2C;
+}
+#left-panel h2 {
+    margin: 20px 0 15px;
+    font-family: 'CTVSans-Bold',arial,sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #005fff;
 }
 #sign-up {
     margin: 0 0 15px 18px;;
