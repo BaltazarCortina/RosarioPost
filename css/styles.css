@@ -191,7 +191,7 @@ footer a, footer a:visited {
 }
 #header-back span {
     position: relative;
-    top: 5px;
+    top: 10px;
     font-size: 30px;
 }
 #header-back a, #header-back a:visited {
@@ -506,4 +506,14 @@ footer a, footer a:visited {
 #political {
     float: right;
     font-size: 14px;
+}
+@media only screen and (max-width: 768px) {
+    aside {
+        float: none;
+        width: 100%;
+    }
+    .main-area {
+        float: none;
+        width: 100%;
+    }
 }
