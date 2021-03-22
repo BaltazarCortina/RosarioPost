@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 header {
     max-width: 1200px;
@@ -78,9 +77,6 @@ footer a, footer a:visited {
     font-family: 'CTVSans-Bold',arial,sans-serif;
     color: #FFF;
 }
-
-/*   CLASES   */
-
 .ad {
     height: 40px;
     padding-bottom: 10px;
@@ -179,9 +175,6 @@ footer a, footer a:visited {
 .clear {
     clear: left;
 }
-
-/*   IDS    */
-
 #header-back {
     display: inline-block;
     width: 30%;
@@ -421,6 +414,20 @@ footer a, footer a:visited {
 #rel-image p {
     font-size: 14px;
     line-height: 20px;
+}
+#link-week{
+    border: 2px solid #a80a01;
+    text-align: center;
+}
+#link-week a, #link-week a:visited {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #2C2C2C;
+}
+#link-week a:hover {
+    text-decoration: underline;
+    color: #a80a01;
 }
 #report {
     width: 83.33%;
